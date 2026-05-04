@@ -7,3 +7,14 @@ dictValues = {"a":2, 4:"bcd", "c":"Hello World"}
 print(dictValues[4]) # o/p: bcd
 
 print(dictValues['c']) #o/p: Hello World
+
+
+#How to create Dictionary dynamically at Run Time
+
+dictDynamic = {}
+
+dictDynamic["firstName"] = "Chandra"
+dictDynamic["lastName"] = "Amu"
+dictDynamic["Gender"] = "Male"
+
+print(dictDynamic)
